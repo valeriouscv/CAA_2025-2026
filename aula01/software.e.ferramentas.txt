@@ -1,0 +1,39 @@
+
+Java Development Kit (JDK)
+	[Oracle JDK] https://www.oracle.com/java/technologies/downloads/#java8
+	[Adopt OpenJDK] https://adoptium.net/temurin/releases
+
+Eclipse IDE
+	https://www.eclipse.org/downloads/packages/
+
+NetBeans IDE
+	https://netbeans.org/downloads/
+
+Jetbrain IDE
+	Licença Educacional (versão completa. Registar com email da US)
+	https://www.jetbrains.com/community/education/#students
+
+Sumatra PDF (leitor PDF leve e gratis)
+	https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+
+Ferramentas:
+	Visual Code:	https://code.visualstudio.com/
+	Notepad++:		https://notepad-plus-plus.org/downloads/
+	Cmdr:			https://cmder.net/
+	GIT:			https://git-scm.com/
+	Markdown:		https://www.markdownguide.org/cheat-sheet/
+
+LeetCode problems
+	https://leetcode.com/problemset/all/
+
+Big-O Cheat Sheet
+	https://www.bigocheatsheet.com/
+
+VisuAlgo
+	https://visualgo.net/en
+
+Data Structure Visualizations
+	https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+
+Sample Text File
+	https://www.learningcontainer.com/sample-text-file/

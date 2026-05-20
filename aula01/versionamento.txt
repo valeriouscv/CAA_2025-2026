@@ -1,0 +1,7 @@
+Versionamento
+-----------------------------------------------------------------------------------------
+O que é Git? O que é versionamento? - Curso de Git e GitHub
+	https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA
+
+Curso Estrutura de Dados e Algoritmos Java (Loiane Groner)
+	https://www.youtube.com/playlist?list=PLGxZ4Rq3BOBrgumpzz-l8kFMw2DLERdxi

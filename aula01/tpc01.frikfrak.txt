@@ -1,0 +1,19 @@
+Frik Frak
+-------------------------------------------------------------------------------------------------------
+(submeter até, no máximo dia/mes/ano  às 23h59)
+
+- Implementar o algoritmo do jogo Frik-Frak em Java
+
+- O jogo deverá ter (no mínimo) um modo consola e um modo gráfico (valorização)
+
+- O jogo deve validar todas as regras e todas as jogadas possíveis
+
+- O jogo pode ter os seguintes modos:
+	- Humano vs Humano (obrigatório)
+	- Humano vs PC (Inteligência Artificial) (Extra: A sua não inclusão não penaliza o aluno em nada)
+
+- O aluno deve utilizar um repositório com controlo de versões (todos os trabalhos 
+devem ser partilhados com o docente através do repositório)
+
+- O aluno deve produzir um relatório técnico no ficheiro README.md (formato Markdown
+https://www.markdownguide.org/basic-syntax/ ) com a explicação dos algoritmos desenvolvidos 
