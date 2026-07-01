@@ -9,4 +9,4 @@
 - [x] travessia: *emOrdem/simétrica* (público e privado)
 - [ ] travessia: *porNivel* (público e privado)
 - [ ] travessia: *pesquisar* (público e privado)
-- [ ] remover (público e privado)
+- [ ] remover
