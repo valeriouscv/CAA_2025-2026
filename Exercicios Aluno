@@ -1,0 +1,129 @@
+package Exercicios1;
+
+    public class Aluno {
+    
+
+    private String nome;
+    private int[] notas;
+
+    public Aluno(String nome, int[] notas) {
+        this.nome = nome;
+        this.notas = notas;
+    }
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int[] getNotas() {
+        return notas;
+    }
+
+
+    public double calcularMedia() {
+
+        return (notas[0] * 0.30) +
+               (notas[1] * 0.10) +
+               (notas[2] * 0.35);
+    }
+
+    public void ordenarNotas() {
+
+        for (int i = 0; i < notas.length - 1; i++) {
+
+            for (int j = 0; j < notas.length - 1 - i; j++) {
+
+                if (notas[j] > notas[j + 1]) {
+
+                    int aux = notas[j];
+                    notas[j] = notas[j + 1];
+                    notas[j + 1] = aux;
+                }
+            }
+        }
+    }
+
+    // Mostrar dados do aluno
+    public void mortarDados() {
+
+        System.out.println("Aluno: " + nome);
+
+        System.out.print("Notas: ");
+
+        for (int nota : notas) {
+            System.out.print(nota + " ");
+        }
+
+        System.out.printf("\nMédia: %.2f\n", calcularMedia());
+    }
+
+}
+
+    public void mostrarDados() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'mostrarDados'");
+    }
+
+// main
+package Exercicios1;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+public class AlunoTeste{
+
+
+    public static void main(String[] args) {
+
+        String ficheiro = "alunos.csv";
+
+        try {
+
+            BufferedReader br = new BufferedReader(new FileReader(ficheiro));
+
+            String linha;
+
+            while ((linha = br.readLine()) != null) {
+
+                String[] dados = linha.split(",");
+
+                String nome = dados[0];
+
+                int[] notas = new int[dados.length - 1];
+
+                for (int i = 1; i < dados.length; i++) {
+                    notas[i - 1] = Integer.parseInt(dados[i]);
+                }
+
+                Aluno aluno = new Aluno(nome, notas);
+
+                System.out.println("--------------------------------");
+
+                aluno.mostrarDados();
+
+                aluno.ordenarNotas();
+
+                System.out.print("Notas Ordenadas: ");
+
+                for (int nota : aluno.getNotas()) {
+                    System.out.print(nota + " ");
+                }
+
+                System.out.println("\n");
+
+            }
+
+            br.close();
+
+        } catch (IOException e) {
+
+            System.out.println("Erro ao ler o ficheiro.");
+
+        }
+
+    }
+
+}
+
+
+
